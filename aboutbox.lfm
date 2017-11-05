@@ -1,0 +1,121 @@
+object fAboutBox: TfAboutBox
+  Left = 390
+  Height = 364
+  Top = 205
+  Width = 439
+  ActiveControl = pc
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Acerca de este programa'
+  ClientHeight = 364
+  ClientWidth = 439
+  OnClose = FormClose
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '0.9.30'
+  object pc: TPageControl
+    Left = 8
+    Height = 312
+    Top = 8
+    Width = 424
+    ActivePage = tsAbout
+    TabIndex = 0
+    TabOrder = 0
+    object tsAbout: TTabSheet
+      Caption = 'Acerca de...'
+      ClientHeight = 286
+      ClientWidth = 416
+      object Imagen: TImage
+        Left = 13
+        Height = 170
+        Top = 8
+        Width = 385
+      end
+      object LVersion: TLabel
+        Left = 13
+        Height = 31
+        Top = 192
+        Width = 385
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Version'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -25
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object LNombre: TLabel
+        Left = 13
+        Height = 30
+        Top = 224
+        Width = 385
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Gestión Documental'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -24
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label3: TLabel
+        Left = 13
+        Height = 20
+        Top = 256
+        Width = 385
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'http://docuges.sourceforge.net'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -16
+        Font.Name = 'Arial Narrow'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        ParentColor = False
+        ParentFont = False
+      end
+      object Label1: TLabel
+        Left = 253
+        Height = 14
+        Top = 155
+        Width = 106
+        Caption = ' Release Candidate 1 '
+        Color = clYellow
+        ParentColor = False
+        Transparent = False
+      end
+    end
+    object tsLicencia: TTabSheet
+      Caption = 'Licencia'
+      ClientHeight = 277
+      ClientWidth = 418
+      object Licencia: TMemo
+        Left = 4
+        Height = 264
+        Top = 8
+        Width = 409
+        ReadOnly = True
+        ScrollBars = ssVertical
+        TabOrder = 0
+      end
+    end
+  end
+  object btnSalir: TBitBtn
+    Left = 176
+    Height = 29
+    Top = 328
+    Width = 86
+    Caption = '&Salir'
+    Kind = bkClose
+    OnClick = btnSalirClick
+    TabOrder = 1
+  end
+end

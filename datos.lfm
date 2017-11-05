@@ -1,0 +1,22 @@
+object dmDatos: TdmDatos
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  OldCreateOrder = False
+  Height = 110
+  HorizontalOffset = 444
+  VerticalOffset = 270
+  Width = 228
+  object ZConexion: TZConnection
+    Protocol = 'mysql-5'
+    Port = 3306
+    User = 'root'
+    left = 48
+    top = 40
+  end
+  object dbQuery: TZQuery
+    Connection = ZConexion
+    Params = <>
+    left = 142
+    top = 40
+  end
+end

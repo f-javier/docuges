@@ -1,0 +1,94 @@
+object fmenu: Tfmenu
+  Left = 456
+  Height = 300
+  Top = 291
+  Width = 400
+  Caption = 'Gestion Documental'
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '0.9.28.2'
+  WindowState = wsMaximized
+  object MainMenu1: TMainMenu
+    left = 121
+    top = 103
+    object MenuArchivo: TMenuItem
+      Caption = '&Archivo'
+      object MenuAyuda: TMenuItem
+        Caption = 'Ayuda'
+        ShortCut = 112
+      end
+      object Linea11: TMenuItem
+        Caption = '-'
+      end
+      object MenuConfigurarImpresora: TMenuItem
+        Caption = 'Configurar &Impresora'
+        OnClick = MenuConfigurarImpresoraClick
+      end
+      object MenuConexion: TMenuItem
+        Caption = 'Datos de Conexión'
+        OnClick = MenuConexionClick
+      end
+      object Menuconectar: TMenuItem
+        Caption = 'Conectar'
+        OnClick = MenuconectarClick
+      end
+      object Linea12: TMenuItem
+        Caption = '-'
+      end
+      object MenuAcercaDe: TMenuItem
+        Caption = 'Acerca &de ...'
+        OnClick = MenuAcercaDeClick
+      end
+      object Linea13: TMenuItem
+        Caption = '-'
+      end
+      object MenuSalir: TMenuItem
+        Caption = '&Salir'
+        ShortCut = 32883
+        OnClick = MenuSalirClick
+      end
+    end
+    object MenuMaestros: TMenuItem
+      Caption = '&Maestros'
+      object MenuGrupos: TMenuItem
+        Caption = '&Grupos'
+        ShortCut = 16455
+        OnClick = MenuGruposClick
+      end
+      object MenuSubGrupos: TMenuItem
+        Caption = '&SubGrupos'
+        ShortCut = 16467
+        OnClick = MenuSubGruposClick
+      end
+      object MenuTipos: TMenuItem
+        Caption = '&Tipos'
+        ShortCut = 16468
+        OnClick = MenuTiposClick
+      end
+      object Linea21: TMenuItem
+        Caption = '-'
+      end
+      object MenuDocumentos: TMenuItem
+        Caption = '&Documentos'
+        ShortCut = 16452
+        OnClick = MenuDocumentosClick
+      end
+    end
+    object MenuUtilidades: TMenuItem
+      Caption = '&Utilidades'
+      object MenuActBBDD: TMenuItem
+        Caption = 'Actualización BBDD'
+        OnClick = MenuActBBDDClick
+      end
+      object MenuCopiaSeg: TMenuItem
+        Caption = 'Copia de Seguridad'
+        OnClick = MenuCopiaSegClick
+      end
+    end
+  end
+  object PrinterSetupDialog1: TPrinterSetupDialog
+    left = 220
+    top = 104
+  end
+end

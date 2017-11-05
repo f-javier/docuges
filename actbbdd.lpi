@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <Flags>
+        <AlwaysBuild Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <Title Value="actbbdd"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="zcomponent"/>
+        <MinVersion Major="6" Minor="6" Release="4" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="actbbdd.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="actbbdd"/>
+        <UsageCount Value="65"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="actualizabbdd.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FActualizaBBDD"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ActualizaBBDD"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="39" Y="26"/>
+        <UsageCount Value="65"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../Globales/global.pas"/>
+        <ComponentName Value="DataModule1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="Global"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="63"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../Globales/funciones.pas"/>
+        <UnitName Value="Funciones"/>
+        <TopLine Value="183"/>
+        <CursorPos X="2" Y="210"/>
+        <UsageCount Value="63"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../funciones.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="funciones"/>
+        <TopLine Value="1"/>
+        <CursorPos X="19" Y="16"/>
+        <UsageCount Value="22"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="/usr/share/fpcsrc/2.4.2/packages/fcl-process/src/process.pp"/>
+        <UnitName Value="process"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="393" Column="45" TopLine="382"/>
+      </Position1>
+      <Position2>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="398" Column="59" TopLine="382"/>
+      </Position2>
+      <Position3>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="410" Column="88" TopLine="397"/>
+      </Position3>
+      <Position4>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="1" Column="15" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="2" Column="1" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="30" Column="10" TopLine="17"/>
+      </Position6>
+      <Position7>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="32" Column="8" TopLine="17"/>
+      </Position7>
+      <Position8>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="99" Column="24" TopLine="86"/>
+      </Position8>
+      <Position9>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="105" Column="8" TopLine="86"/>
+      </Position9>
+      <Position10>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="111" Column="16" TopLine="86"/>
+      </Position10>
+      <Position11>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="125" Column="54" TopLine="112"/>
+      </Position11>
+      <Position12>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="126" Column="52" TopLine="112"/>
+      </Position12>
+      <Position13>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="135" Column="16" TopLine="112"/>
+      </Position13>
+      <Position14>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="163" Column="16" TopLine="150"/>
+      </Position14>
+      <Position15>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="173" Column="16" TopLine="150"/>
+      </Position15>
+      <Position16>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="193" Column="16" TopLine="180"/>
+      </Position16>
+      <Position17>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="200" Column="16" TopLine="180"/>
+      </Position17>
+      <Position18>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="204" Column="16" TopLine="180"/>
+      </Position18>
+      <Position19>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="268" Column="10" TopLine="180"/>
+      </Position19>
+      <Position20>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="1" Column="25" TopLine="1"/>
+      </Position20>
+      <Position21>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="125" Column="56" TopLine="112"/>
+      </Position21>
+      <Position22>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="126" Column="54" TopLine="112"/>
+      </Position22>
+      <Position23>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="308" Column="1" TopLine="299"/>
+      </Position23>
+      <Position24>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="179" Column="1" TopLine="121"/>
+      </Position24>
+      <Position25>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="26" Column="27" TopLine="11"/>
+      </Position25>
+      <Position26>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="6" Column="19" TopLine="1"/>
+      </Position26>
+      <Position27>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="26" Column="39" TopLine="1"/>
+      </Position27>
+      <Position28>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="35" Column="8" TopLine="21"/>
+      </Position28>
+      <Position29>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="101" Column="22" TopLine="83"/>
+      </Position29>
+      <Position30>
+        <Filename Value="actualizabbdd.pas"/>
+        <Caret Line="201" Column="1" TopLine="201"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="9"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="Bin"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

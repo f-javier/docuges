@@ -1,0 +1,459 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <AutoCreateForms Value="False"/>
+      <Title Value="docuges"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="7">
+      <Item1>
+        <PackageName Value="zcomponent"/>
+        <MinVersion Major="6" Minor="6" Release="6" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="SynEdit"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="pack_powerpdf"/>
+        <MinVersion Minor="9" Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="Printer4Lazarus"/>
+        <MinVersion Minor="5" Valid="True"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="SQLDBLaz"/>
+        <MinVersion Major="1" Release="1" Valid="True"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="LCL"/>
+      </Item7>
+    </RequiredPackages>
+    <Units Count="34">
+      <Unit0>
+        <Filename Value="docuges.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="docuges"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="21"/>
+        <CursorPos X="23" Y="34"/>
+        <UsageCount Value="64"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="subgrupos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fSubGrupos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="subgrupos"/>
+        <TopLine Value="81"/>
+        <CursorPos X="7" Y="96"/>
+        <UsageCount Value="64"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="busquedas.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FBusquedas"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Busquedas"/>
+        <TopLine Value="287"/>
+        <CursorPos X="16" Y="299"/>
+        <UsageCount Value="64"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="datos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmDatos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="datos"/>
+        <TopLine Value="16"/>
+        <CursorPos X="34" Y="29"/>
+        <UsageCount Value="64"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="documentos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fDocumentos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="documentos"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="16" Y="11"/>
+        <UsageCount Value="64"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="funciones.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="funciones"/>
+        <TopLine Value="58"/>
+        <CursorPos X="16" Y="82"/>
+        <UsageCount Value="64"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="grupos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fGrupos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="grupos"/>
+        <TopLine Value="100"/>
+        <CursorPos X="1" Y="113"/>
+        <UsageCount Value="64"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="menu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmenu"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="menu"/>
+        <TopLine Value="113"/>
+        <CursorPos X="3" Y="128"/>
+        <UsageCount Value="64"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <TopLine Value="1214"/>
+        <CursorPos X="19" Y="1225"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\lazarus\lcl\include\winapih.inc"/>
+        <TopLine Value="164"/>
+        <CursorPos X="10" Y="175"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="tipos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fTipos"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="tipos"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="122"/>
+        <CursorPos X="11" Y="141"/>
+        <UsageCount Value="61"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="grupos.lfm"/>
+        <TopLine Value="1"/>
+        <CursorPos X="23" Y="19"/>
+        <SyntaxHighlighter Value="LFM"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="aboutbox.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAboutBox"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="aboutbox"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="54"/>
+        <CursorPos X="42" Y="64"/>
+        <UsageCount Value="53"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\lazarus\lcl\lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <TopLine Value="641"/>
+        <CursorPos X="3" Y="654"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="conexion.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fConexion"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="conexion"/>
+        <TopLine Value="89"/>
+        <CursorPos X="29" Y="101"/>
+        <UsageCount Value="50"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="verpdf.pas"/>
+        <ComponentName Value="fVerPDF"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="verpdf"/>
+        <TopLine Value="17"/>
+        <CursorPos X="23" Y="35"/>
+        <UsageCount Value="21"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\lazarus\fpc\2.2.4\source\rtl\inc\dosh.inc"/>
+        <TopLine Value="34"/>
+        <CursorPos X="3" Y="47"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\lazarus\fpc\2.2.4\source\rtl\objpas\sysutils\syswideh.inc"/>
+        <TopLine Value="12"/>
+        <CursorPos X="10" Y="21"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\lazarus\fpc\2.2.4\source\rtl\objpas\sysutils\syspchh.inc"/>
+        <TopLine Value="19"/>
+        <CursorPos X="10" Y="25"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\lazarus\fpc\2.2.4\source\rtl\objpas\sysutils\filutilh.inc"/>
+        <TopLine Value="35"/>
+        <CursorPos X="20" Y="75"/>
+        <UsageCount Value="11"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\lazarus\fpc\2.2.4\source\rtl\inc\objpash.inc"/>
+        <TopLine Value="138"/>
+        <CursorPos X="23" Y="151"/>
+        <UsageCount Value="11"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\lazarus\fpc\2.2.4\source\rtl\objpas\sysutils\diskh.inc"/>
+        <TopLine Value="1"/>
+        <CursorPos X="10" Y="20"/>
+        <UsageCount Value="11"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <TopLine Value="1263"/>
+        <CursorPos X="14" Y="1372"/>
+        <UsageCount Value="10"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\lazarus\fpc\2.2.4\source\rtl\inc\wstringh.inc"/>
+        <TopLine Value="1"/>
+        <CursorPos X="11" Y="30"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\..\lazarus\fpc\2.2.4\source\rtl\objpas\classes\classesh.inc"/>
+        <TopLine Value="11"/>
+        <CursorPos X="27" Y="824"/>
+        <UsageCount Value="10"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\..\lazarus\lcl\lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <TopLine Value="745"/>
+        <CursorPos X="105" Y="750"/>
+        <UsageCount Value="10"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="recursostexto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="recursostexto"/>
+        <TopLine Value="16"/>
+        <CursorPos X="1" Y="36"/>
+        <UsageCount Value="41"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\..\..\lazarus\lcl\dbctrls.pp"/>
+        <UnitName Value="DbCtrls"/>
+        <TopLine Value="1042"/>
+        <CursorPos X="65" Y="1061"/>
+        <UsageCount Value="10"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\..\..\lazarus\lcl\dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <TopLine Value="1"/>
+        <CursorPos X="6" Y="23"/>
+        <UsageCount Value="10"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\..\..\lazarus\fpc\2.2.4\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <TopLine Value="99"/>
+        <CursorPos X="10" Y="111"/>
+        <UsageCount Value="10"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\..\..\lazarus\lcl\include\customform.inc"/>
+        <TopLine Value="1512"/>
+        <CursorPos X="1" Y="1524"/>
+        <UsageCount Value="10"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\..\..\lazarus\lcl\include\application.inc"/>
+        <TopLine Value="1939"/>
+        <CursorPos X="1" Y="1951"/>
+        <UsageCount Value="10"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\..\..\lazarus\lcl\include\dbedit.inc"/>
+        <TopLine Value="157"/>
+        <CursorPos X="1" Y="169"/>
+        <UsageCount Value="10"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="copiaseg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FCopiaSeg"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="copiaseg"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="484"/>
+        <CursorPos X="1" Y="490"/>
+        <UsageCount Value="22"/>
+      </Unit33>
+    </Units>
+    <JumpHistory Count="14" HistoryIndex="13">
+      <Position1>
+        <Filename Value="documentos.pas"/>
+        <Caret Line="227" Column="36" TopLine="208"/>
+      </Position1>
+      <Position2>
+        <Filename Value="documentos.pas"/>
+        <Caret Line="207" Column="48" TopLine="178"/>
+      </Position2>
+      <Position3>
+        <Filename Value="documentos.pas"/>
+        <Caret Line="265" Column="14" TopLine="250"/>
+      </Position3>
+      <Position4>
+        <Filename Value="documentos.pas"/>
+        <Caret Line="238" Column="100" TopLine="220"/>
+      </Position4>
+      <Position5>
+        <Filename Value="documentos.pas"/>
+        <Caret Line="231" Column="28" TopLine="217"/>
+      </Position5>
+      <Position6>
+        <Filename Value="documentos.pas"/>
+        <Caret Line="232" Column="14" TopLine="222"/>
+      </Position6>
+      <Position7>
+        <Filename Value="documentos.pas"/>
+        <Caret Line="235" Column="58" TopLine="221"/>
+      </Position7>
+      <Position8>
+        <Filename Value="documentos.pas"/>
+        <Caret Line="236" Column="1" TopLine="224"/>
+      </Position8>
+      <Position9>
+        <Filename Value="documentos.pas"/>
+        <Caret Line="233" Column="1" TopLine="221"/>
+      </Position9>
+      <Position10>
+        <Filename Value="documentos.pas"/>
+        <Caret Line="236" Column="1" TopLine="224"/>
+      </Position10>
+      <Position11>
+        <Filename Value="documentos.pas"/>
+        <Caret Line="225" Column="15" TopLine="218"/>
+      </Position11>
+      <Position12>
+        <Filename Value="documentos.pas"/>
+        <Caret Line="232" Column="1" TopLine="220"/>
+      </Position12>
+      <Position13>
+        <Filename Value="docuges.lpr"/>
+        <Caret Line="34" Column="40" TopLine="13"/>
+      </Position13>
+      <Position14>
+        <Filename Value="docuges.lpr"/>
+        <Caret Line="42" Column="1" TopLine="21"/>
+      </Position14>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="Bin"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Source Value="busquedas.pas"/>
+        <Line Value="147"/>
+      </Item1>
+    </BreakPoints>
+    <Watches Count="3">
+      <Item1>
+        <Expression Value="OpenDialog1.FileName;"/>
+      </Item1>
+      <Item2>
+        <Expression Value="funciones.LFill(tDocumentosID_DOCUMENTO.AsString,2,'0')+copy(temp,length(temp)-3,4)"/>
+      </Item2>
+      <Item3>
+        <Expression Value="copy(temp,length(temp)-3,4)"/>
+      </Item3>
+    </Watches>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
